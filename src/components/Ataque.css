@@ -1,0 +1,109 @@
+/* Resetando estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .ataque-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .ataque-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ataque-header h1 {
+    font-size: 2rem;
+    color: #e63946;
+    margin-bottom: 10px;
+  }
+  
+  .ataque-header p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .ataque-content {
+    margin-top: 20px;
+  }
+  
+  .ataque-info, .ataque-mechanism, .ataque-dicas, .ataque-o-que-fazer {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #1d3557;
+    margin-bottom: 15px;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li, ol li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li span, ol li span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #e63946;
+  }
+  
+  .ataque-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 30px;
+  }
+  
+  .ataque-footer p {
+    font-size: 0.8rem;
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media (max-width: 768px) {
+    .ataque-header h1 {
+      font-size: 1.6rem;
+    }
+  
+    .ataque-header p {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    ul li, ol li {
+      font-size: 0.9rem;
+    }
+  
+    .ataque-footer p {
+      font-size: 0.7rem;
+    }
+  }
+  
